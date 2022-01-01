@@ -4,7 +4,16 @@ import "./Banner.css";
 function Banner() {
   return (
     <div className="banner">
-      <p>This is the banner page</p>
+      <div className="banner__search">
+        {showSearch && <Search />}
+        <Button
+          onClick={() => setshowSearch(!showSearch)}
+          className="banner__searchBtn"
+          variant="outlined"
+        >
+          Search Date
+        </Button>
+      </div>
     </div>
   );
 }
