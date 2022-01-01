@@ -7,5 +7,9 @@
     key: "selection",
   };
 
+      <h2>
+        Number of guests
+        <PeopleIcon />
+      </h2>
       <input type="number" min={0} defaultValue={2} />
       <Button>Search Airbnb</Button>
