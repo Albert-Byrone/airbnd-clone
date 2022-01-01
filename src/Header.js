@@ -13,9 +13,12 @@ function Header() {
         className="header__icon"
       />
       <div className="header__center">
-        <input type="text" />
+        <input type="text" placeholder="Start your search" />
         {/* <SearchIcon /> */}
-        <SearchIcon />
+        <SearchIcon
+          fontSize="small"
+          style={{ backgroundColor: "#FF385C", borderRadius: "50px" }}
+        />
       </div>
       <div className="header__right">
         <p>Become a host</p>
