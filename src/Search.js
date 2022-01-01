@@ -7,3 +7,5 @@
     key: "selection",
   };
 
+      <input type="number" min={0} defaultValue={2} />
+      <Button>Search Airbnb</Button>
