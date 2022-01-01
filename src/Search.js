@@ -7,6 +7,10 @@
     key: "selection",
   };
 
+  function handleSelect(ranges) {
+    setstartDate(ranges.selection.startDate);
+    setendDate(ranges.selection.endDate);
+  }
       <h2>
         Number of guests
         <PeopleIcon />
