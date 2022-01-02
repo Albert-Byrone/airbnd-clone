@@ -1,0 +1,20 @@
+.home__section {
+  display: flex;
+  padding: 30px;
+}
+.home__container > h1 {
+  padding-top: 120px;
+  padding-left: 40px;
+  max-width: 100% !important;
+  font-size: var(--tl-font-size, 32px) !important;
+  font-weight: var(--tl-font-weight, 800) !important;
+  letter-spacing: var(--tl-letter-spacing, 0em) !important;
+  line-height: var(--tl-line-height, 36px) !important;
+  color: var(--tl-color, #222222) !important;
+  -webkit-line-clamp: var(--tl-line-clamp) !important;
+  --tl-font-size: 42px;
+  --tl-font-weight: 600;
+  --tl-letter-spacing: -0.02em;
+  --tl-line-height: 47px;
+}
+
