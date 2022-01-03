@@ -1,18 +1,33 @@
-.banner {
-  height: 50vh;
+.banner__container {
   position: relative;
-  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg")
-    center center;
-  height: 50vh;
+  background-color: black;
+  width: 100%;
+}
+.banner {
+  height: 80vh;
+  position: relative;
+  background: url("../header.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  margin: auto;
+  margin-top: 68px !important;
+  /* margin: 200px; */
+  margin-bottom: 68px !important;
+  border: 32px solid black;
+  border-radius: 50px;
+  /* border: 2px solid white; */
 }
 .banner__info {
-  background-color: black;
+  /* background-color: black; */
   color: white;
-  padding-top: 25vh;
-  padding-right: 50px;
+  padding-top: 48vh;
+  /* padding-right: 50px;
   padding-left: 50px;
-  padding-bottom: 40px;
-  width: 300px;
+  padding-bottom: 40px; */
+
+  text-align: center;
+  /* width: 300px; */
 }
 .banner__info > button {
   border-radius: 20px;
@@ -24,13 +39,53 @@
 
   /* color: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%) !important; */
 }
+.banner__info > h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 54px;
+}
 .banner__searchBtn {
   background-color: white !important;
   font-weight: 900 !important;
   text-transform: inherit !important;
   color: black !important;
+  visibility: hidden;
 }
 .banner__search {
   display: flex;
   flex-direction: column;
+}
+.banner__info > button {
+  margin-top: 16px !important;
+  margin-left: 0px !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  padding: 14px 32px !important;
+}
+.banner__info > button > span {
+  -webkit-text-fill-color: transparent !important;
+  background: -webkit-linear-gradient(
+    90deg,
+    #6f019c 0%,
+    #c6017e 135.12%
+  ) !important;
+  background: -moz-linear-gradient(
+    90deg,
+    #6f019c 0%,
+    #c6017e 135.12%
+  ) !important;
+  background: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%) !important;
+  -webkit-background-clip: -webkit-text !important;
+  -webkit-background-clip: text !important;
+  font-weight: 800 !important;
+  color: #222222 !important;
+  line-height: inherit !important;
+  max-height: 120px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 6 !important;
+  -webkit-box-orient: vertical !important;
 }
