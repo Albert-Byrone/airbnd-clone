@@ -8,9 +8,9 @@ function Header() {
   return (
     <div className="header">
       <img
-        src="https://img.icons8.com/ios-filled/500/000000/airbnb.png"
-        alt="logo"
         className="header__icon"
+        src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
+        alt="logo"
       />
       <div className="header__center">
         <input type="text" placeholder="Start your search" />
