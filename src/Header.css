@@ -10,10 +10,9 @@
   /* padding-t÷op: 20px; */
 }
 .header__icon {
-  height: 80px;
+  height: 100px;
   object-fit: contain;
   margin-left: 20px;
-  
 }
 .header__center {
   display: flex;
