@@ -3,6 +3,7 @@ import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
 import Cards from "./Cards";
+import Question from "./Question";
 function Home() {
   return (
     <div className="home">
@@ -38,6 +39,9 @@ function Home() {
         </div>
         <div className="home__section">
           <Cards />
+        </div>
+        <div className="home__section">
+          <Question />
         </div>
       </div>
     </div>
