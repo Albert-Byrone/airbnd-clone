@@ -37,17 +37,7 @@ function Home() {
           />
         </div>
         <div className="home__section">
-          <Cards
-            src="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
-            description="Things to do on your trip"
-            btn="Our Experience"
-          />
-          <Cards
-            className="home__sectionCards"
-            src="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
-            description="Things to do  from home"
-            btn="Online Experience"
-          />
+          <Cards />
         </div>
       </div>
     </div>
