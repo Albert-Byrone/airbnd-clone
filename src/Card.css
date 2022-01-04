@@ -17,6 +17,7 @@
 .card__info {
   padding: 20px;
   height: 154px;
+  background-size: cover;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   color: white;
