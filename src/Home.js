@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Card from "./Card";
 import Cards from "./Cards";
 import Question from "./Question";
+import Footer from "./Footer";
 function Home() {
   return (
     <div className="home">
@@ -42,6 +43,9 @@ function Home() {
         </div>
         <div className="home__section">
           <Question />
+        </div>
+        <div className="home__section">
+          <Footer />
         </div>
       </div>
     </div>
