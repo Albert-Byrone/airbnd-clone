@@ -21,7 +21,6 @@ function Home() {
           />
           <Card
             src="https://a0.muscache.com/im/pictures/ffde0c4b-1889-4d11-bb00-41411d34fdfc.jpg?im_w=720"
-            city="Malindi"
             distance="400 Kilometres away"
             color="#BC1A6E"
           />
