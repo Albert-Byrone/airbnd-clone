@@ -2,6 +2,13 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
+  useEffect(() => {
+    setupTabs();
+    document.querySelectorAll(".tabs").forEach((tabsContainer) => {
+      tabsContainer.querySelector(".tabs__sidebar .tabs__button").click();
+    });
+  });
+
   function setupTabs() {
     document.querySelectorAll(".tabs__button").forEach((button) => {
       button.addEventListener("click", () => {
