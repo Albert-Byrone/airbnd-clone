@@ -2,6 +2,27 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
+  function setupTabs() {
+    document.querySelectorAll(".tabs__button").forEach((button) => {
+      button.addEventListener("click", () => {
+        const sideBar = button.parentElement;
+        const tabsContainer = sideBar.parentElement;
+        const tabNumber = button.dataset.forTab;
+        const tabToActivate = tabsContainer.querySelectorAll(
+          `.tabs__content[data-tab="${tabNumber}"]`
+        );
+
+        sideBar.querySelectorAll(".tabs__button").forEach((button) => {
+          button.classList.remove("tabs__button--active");
+        });
+        tabsContainer.querySelectorAll(".tabs__content").forEach((tab) => {
+          tab.classList.remove("tabs__content--active");
+        });
+        button.classList.add("tabs__button--active");
+        tabToActivate[0].classList.add("tabs__content--active");
+      });
+    });
+  }
   return (
     <div className="footer">
       <div class="tabs">
