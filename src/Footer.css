@@ -22,7 +22,7 @@
 }
 
 .tabs__content {
-  padding: 15px;
+  /* padding: 15px; */
   font-size: 0.8rem;
   display: none;
 }
@@ -35,13 +35,18 @@
   display: flex;
   /* justify-content: space-evenly; */
   justify-content: space-around;
-  padding: 20px;
+  /* padding: 20px; */
   width: 100vw;
+  background-color: blueviolet;
 }
 
-/*
 .tabs__content--active {
   display: block;
+}
+.tab_fluid {
+  background-color: #222222;
+  width: 30vw;
+  margin: 0;
 }
 
 .tabs__title {
@@ -70,5 +75,3 @@
   font-weight: bold;
   border-bottom: 1px solid black;
 }
-
-*/
