@@ -3,14 +3,16 @@ import "./Footer.css";
 
 function Footer() {
   useEffect(() => {
-    setupTabs();
+    console.log("Loaded");
+    setupTab();
     document.querySelectorAll(".tabs").forEach((tabsContainer) => {
       tabsContainer.querySelector(".tabs__sidebar .tabs__button").click();
     });
   });
 
-  function setupTabs() {
+  const setupTab = () => {
     document.querySelectorAll(".tabs__button").forEach((button) => {
+      console.log(button);
       button.addEventListener("click", () => {
         const sideBar = button.parentElement;
         const tabsContainer = sideBar.parentElement;
@@ -22,14 +24,16 @@ function Footer() {
         sideBar.querySelectorAll(".tabs__button").forEach((button) => {
           button.classList.remove("tabs__button--active");
         });
+
         tabsContainer.querySelectorAll(".tabs__content").forEach((tab) => {
           tab.classList.remove("tabs__content--active");
         });
+
         button.classList.add("tabs__button--active");
         tabToActivate[0].classList.add("tabs__content--active");
       });
     });
-  }
+  };
   return (
     <div className="footer">
       <div className="tabs">
@@ -58,7 +62,7 @@ function Footer() {
         </div>
         <div className="tabs__content tabs__content--active" data-tab="1">
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p className="tabs__par">Arizona</p>
             </div>
@@ -389,7 +393,7 @@ function Footer() {
               <p>California</p>
             </div>
             <div>
-              <h4 className="">San Diego</h4>
+              <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
