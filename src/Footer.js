@@ -63,224 +63,228 @@ function Footer() {
         <div className="tabs__content tabs__content--active" data-tab="1">
           <div className="tabs__container">
             <div className="tab_fluid">
-              <h4 className="tabs__title">Phoenix</h4>
-              <p className="tabs__par">Arizona</p>
+              <h4 className="tabs__title">Lake Martin</h4>
+              <p className="tabs__par">Alabama</p>
             </div>
-            <div>
-              <h4 className="tabs__title">Hot Springs</h4>
-              <p>Arkansas</p>
+            <div className="tab_fluid">
+              <h4 className="tabs__title">Banff</h4>
+              <p>Alberta</p>
             </div>
-            <div>
-              <h4 className="tabs__title">Los Angeles</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="tabs__title">Nerja</h4>
+              <p>Andalucía</p>
             </div>
-            <div>
-              <h4 className="tabs__title">San Diego</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="tabs__title">Greer</h4>
+              <p>Arizona</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
-              <h4 className="tabs__title">Phoenix</h4>
+            <div className="tab_fluid">
+              <h4 className="tabs__title">Lake Powell</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
-              <h4 className="tabs__title">Los Angeles</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="tabs__title">North Rim</h4>
+              <p>Arizona</p>
             </div>
-            <div>
-              <h4 className="tabs__title">San Diego</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="tabs__title">Payson</h4>
+              <p>Arizona</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
-              <h4 className="">San Diego</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="">
+                <a href="">Show more</a>
+              </h4>
             </div>
           </div>
         </div>
 
         <div className="tabs__content" data-tab="2">
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p className="tabs__par">Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
-              <h4 className="">San Diego</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="">
+                {" "}
+                <a href="">Show more</a>
+              </h4>
             </div>
           </div>
         </div>
 
         <div className="tabs__content" data-tab="3">
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p className="tabs__par">Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
-              <h4 className="">San Diego</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="">
+                <a href="">Show more</a>
+              </h4>
             </div>
           </div>
         </div>
         <div className="tabs__content" data-tab="4">
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p className="tabs__par">Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="">San Diego</h4>
               <p>California</p>
             </div>
@@ -288,55 +292,55 @@ function Footer() {
         </div>
         <div className="tabs__content" data-tab="5">
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p className="tabs__par">Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="">San Diego</h4>
               <p>California</p>
             </div>
@@ -344,57 +348,59 @@ function Footer() {
         </div>
         <div className="tabs__content" data-tab="6">
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p className="tabs__par">Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">San Diego</h4>
               <p>California</p>
             </div>
           </div>
           <div className="tabs__container">
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Phoenix</h4>
               <p>Arizona</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Hot Springs</h4>
               <p>Arkansas</p>
             </div>
-            <div>
+            <div className="tab_fluid">
               <h4 className="tabs__title">Los Angeles</h4>
               <p>California</p>
             </div>
-            <div>
-              <h4 className="tabs__title">San Diego</h4>
-              <p>California</p>
+            <div className="tab_fluid">
+              <h4 className="">
+                {" "}
+                <a href="">Show more</a>
+              </h4>
             </div>
           </div>
         </div>
