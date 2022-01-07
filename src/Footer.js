@@ -36,6 +36,7 @@ function Footer() {
   };
   return (
     <div className="footer">
+      <h1 className="footer__header">Inspiration for future getaways</h1>
       <div className="tabs">
         <div className="tabs__sidebar">
           <button
