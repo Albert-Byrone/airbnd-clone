@@ -57,6 +57,7 @@
 }
 .tab__par {
   color: #717171;
+  /* align-co/ntent: ; */
 }
 .tabs__button:active {
   color: black;
@@ -76,28 +77,11 @@
   font-weight: bold;
   border-bottom: 1px solid black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer__header {
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
+  font-size: 22px !important;
+  line-height: 26px !important;
+  padding: 5px;
+  padding-bottom: 10px;
+}
