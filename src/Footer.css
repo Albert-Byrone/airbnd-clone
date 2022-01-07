@@ -34,19 +34,20 @@
   /* margin-left: 20px; */
   display: flex;
   /* justify-content: space-evenly; */
-  justify-content: space-around;
-  /* padding: 20px; */
+  padding: 5px;
+  /* padding-top: 10px; */
+  margin-top: 20px;
   width: 100vw;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 .tabs__content--active {
   display: block;
 }
 .tab_fluid {
-  background-color: #222222;
-  width: 30vw;
-  margin: 0;
+  width: 25%;
+  padding: 10px;
+  text-align: left;
 }
 
 .tabs__title {
@@ -75,3 +76,28 @@
   font-weight: bold;
   border-bottom: 1px solid black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
