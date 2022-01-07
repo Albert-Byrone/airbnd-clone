@@ -17,4 +17,6 @@
   --tl-letter-spacing: -0.02em;
   --tl-line-height: 47px;
 }
-
+.home__footer {
+  background-color: #f7f7f7;
+}
