@@ -399,8 +399,7 @@ function Footer() {
             </div>
             <div className="tab_fluid">
               <h4 className="">
-                {" "}
-                <a href="">Show more</a>
+                <a href="#">Show more</a>
               </h4>
             </div>
           </div>
