@@ -1,5 +1,6 @@
 import React from "react";
 import "./Foot.css";
+import LanguageIcon from "@mui/icons-material/Language";
 
 function Foot() {
   return (
@@ -10,10 +11,11 @@ function Foot() {
 
       <div className="foot__right">
         <div className="foot__rightone">
-          <p> © 2022 Airbnb, Inc. Demo. Privacy·Terms·Sitemap</p>
+          <LanguageIcon fontSize="mediam" />
+          <>Language</>
         </div>
         <div className="foot__rightone">
-          <p> © 2022 Airbnb, Inc. Demo. Privacy·Terms·Sitemap</p>
+          {/* <p> © 2022 Airbnb, Inc. Demo. Privacy·Terms·Sitemap</p> */}
         </div>
       </div>
     </div>
