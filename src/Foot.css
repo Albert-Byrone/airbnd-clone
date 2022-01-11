@@ -1,0 +1,18 @@
+.foot {
+  padding-top: 1px solid lightgray;
+  padding: 20px;
+  background-color: #f7f7f7;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+}
+.foot > p {
+  padding: 5px;
+  font-size: 14px;
+}
+.foot__left {
+  flex: 2;
+}
+.foot__right {
+  display: flex;
+}
