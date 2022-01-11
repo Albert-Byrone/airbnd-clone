@@ -21,6 +21,13 @@
   /* align-items: flex-start; */
   /* flex-wrap: wrap; */
 }
-.foot__right > span{
-  padding-left: 22px;
+.foot__rightone  > span {
+  padding-left: 5px;
+  padding: 5px;
+  text-decoration: underline;
+}
+.foot__righttwo{
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
