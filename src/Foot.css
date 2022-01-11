@@ -15,4 +15,12 @@
 }
 .foot__right {
   display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  /* flex-direction: row; */
+  /* align-items: flex-start; */
+  /* flex-wrap: wrap; */
+}
+.foot__right > span{
+  padding-left: 22px;
 }
