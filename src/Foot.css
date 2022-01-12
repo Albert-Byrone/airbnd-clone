@@ -21,13 +21,17 @@
   /* align-items: flex-start; */
   /* flex-wrap: wrap; */
 }
-.foot__rightone  > span {
+.foot__rightone > span {
   padding-left: 5px;
   padding: 5px;
   text-decoration: underline;
 }
-.foot__righttwo{
+.foot__righttwo {
   padding: 3px;
   padding-left: 5px;
   padding-right: 5px;
+}
+.foot__righttwo > ul > li {
+  display: inline;
+  padding: 8px;
 }
