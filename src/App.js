@@ -4,37 +4,21 @@ import Home from "./Home";
 // import Footer from "./Footer";
 import Foot from "./Foot";
 // import { render } from "react-dom";
-import { Route, Router, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SearchPage from "./SearchPage";
 // import your route components too
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Switch>
-          <Route path="/search">
-            <SearchPage />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Foot />
-      </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/search" element={<SearchPage />} />
+      </Routes>
+      <Header />
+      <Foot />
     </div>
   );
 }
 
 export default App;
-{
-  /* <>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/search" element={<SearchPage />} />
-          </Routes>
-          <Foot />
-      </> */
-}
