@@ -1,6 +1,8 @@
 import React from "react";
 import "./SearchPage.css";
 import Button from "@mui/material/Button";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import LanguageIcon from "@mui/icons-material/Language";
 
 export default function SearchPage() {
   return (
@@ -17,10 +19,20 @@ export default function SearchPage() {
           <Button>Shipping Containers</Button>
         </div>
         <div className="searchPage__tab">
-          <Button variant="outlined">Apply</Button>
-          <Button variant="outlined">Guest</Button>
-          <Button variant="outlined">Filter</Button>
+          <Button variant="outlined">
+            Apply <ExpandMoreIcon />
+          </Button>
+          <Button variant="outlined">
+            Guest <ExpandMoreIcon />
+          </Button>
+          <Button variant="outlined">
+            <ExpandMoreIcon />
+            Filter
+          </Button>
         </div>
+      </div>
+      <div className="search__container">
+        
       </div>
     </div>
   );
