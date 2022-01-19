@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
@@ -11,12 +12,14 @@ import SearchPage from "./SearchPage";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<SearchPage />} />
-      </Routes>
-      <Header />
-      <Foot />
+      <>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={<SearchPage />} />
+        </Routes>
+        <Foot />
+      </>
     </div>
   );
 }
