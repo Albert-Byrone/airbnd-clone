@@ -1,5 +1,8 @@
 .search__page {
   padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* background-color: aliceblue; */
 }
 .searchPage__info {
   display: flex;
@@ -11,13 +14,27 @@
 .searchPage__menu > button {
   /* padding: 2px; */
   margin: 3px;
+  margin-bottom: 10px;
   text-transform: inherit;
   color: black;
 }
 
-.searchPage__menu > button :hover {
-  background-color: rgb(113, 113, 113) !important;
+.searchPage__menu > button:hover {
+  background-color: rgba(236, 233, 233, 0.801) !important;
+  border-radius: 10px;
 }
 .searchPage__tab {
-  flex: 0.2;
+  flex: 0.3;
+}
+.searchPage__tab > button {
+  border-radius: 15px;
+  margin: 3px;
+  /* justify-content: space-evenly; */
+  border: 1px solid black;
+  color: black;
+  text-transform: inherit;
+}
+.search__container {
+  height: 1200px;
+  /* background-color: aquamarine; */
 }
