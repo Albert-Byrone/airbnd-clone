@@ -1,0 +1,23 @@
+.search__page {
+  padding-top: 100px;
+}
+.searchPage__info {
+  display: flex;
+}
+.searchPage__menu {
+  flex: 0.9;
+  /* padding: 2px; */
+}
+.searchPage__menu > button {
+  /* padding: 2px; */
+  margin: 3px;
+  text-transform: inherit;
+  color: black;
+}
+
+.searchPage__menu > button :hover {
+  background-color: black !important;
+}
+.searchPage__tab {
+  flex: 0.2;
+}
