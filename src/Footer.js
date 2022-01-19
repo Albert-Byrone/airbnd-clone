@@ -113,7 +113,7 @@ function Footer() {
             </div>
             <div className="tab_fluid">
               <h4 className="">
-                <a href="">Show more</a>
+                <a href="www.google.com">Show more</a>
               </h4>
             </div>
           </div>
@@ -172,7 +172,7 @@ function Footer() {
             <div className="tab_fluid">
               <h4 className="">
                 {" "}
-                <a href="">Show more</a>
+                <a href="www.google.com">Show more</a>
               </h4>
             </div>
           </div>
@@ -230,7 +230,7 @@ function Footer() {
             </div>
             <div className="tab_fluid">
               <h4 className="">
-                <a href="">Show more</a>
+                <a href="www.google.com">Show more</a>
               </h4>
             </div>
           </div>
@@ -399,7 +399,7 @@ function Footer() {
             </div>
             <div className="tab_fluid">
               <h4 className="">
-                <a href="#">Show more</a>
+                <a href="www.google.com">Show more</a>
               </h4>
             </div>
           </div>
