@@ -1,0 +1,13 @@
+.searchResult {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+  flex-direction: row !important;
+}
+.searchResult > img {
+  height: 200px;
+  width: 350px;
+  overflow: hidden;
+}
