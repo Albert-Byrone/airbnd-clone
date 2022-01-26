@@ -2,7 +2,7 @@ import React from "react";
 import "./SearchPage.css";
 import Button from "@mui/material/Button";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import LanguageIcon from "@mui/icons-material/Language";
+// import LanguageIcon from "@mui/icons-material/Language";
 import SearchResult from "./SearchResult";
 
 export default function SearchPage() {
