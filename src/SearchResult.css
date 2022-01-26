@@ -3,11 +3,24 @@
   margin: 10px;
   padding: 10px;
   border-bottom: 1px solid lightgray;
-  position: relative;
+  /* position: relative; */
   flex-direction: row !important;
 }
 .searchResult > img {
   height: 200px;
   width: 350px;
+  border-radius: 10px;
   overflow: hidden;
+}
+/* .serachResult__heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+} */
+
+.searchResult__heart {
+  position: relative;
+  top: 20px;
+  right: 40px;
+  left: -10px;
 }
