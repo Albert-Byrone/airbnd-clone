@@ -9,7 +9,7 @@ function Foot() {
   return (
     <div className="foot">
       <div className="foot__left">
-        <p> © 2022 Airbnb, Inc. Demo. Privacy·Terms·Sitemap</p>
+        <p> © 2022 Airbnb clone, Inc. Demo. Privacy·Terms·Sitemap</p>
       </div>
 
       <div className="foot__right">
